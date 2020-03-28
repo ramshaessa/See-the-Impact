@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<title>Words of Wisdom</title>
+<link rel="icon" href="../img/twitter-favicon.ico">
+<link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="container">
+    <div id="display"></div>
+    <div id="content">
+        <p id="quote">"the people who are crazy enough to think they can change the world are the ones who do." <br />-
+            Steve Jobs</p>
+    </div>
+</div>
+<div id="nav">
+    <button id="gen" onclick="genQuote()">New Quote</button>
+    <a class="twitter-share-button" target="_blank" href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+        class="twitter-share-button" data-size="large" data-text="Check out this quote:" data-lang="en"
+        data-show-count="false">
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>><i class="fa fa-twitter"
+            aria-hidden="true"></i></a>
+</div>
+
+</html>
+
+<script>
+    function genQuote() {
+        var randNum = Math.floor(Math.random() * 8) + 1;
+        document.getElementById('quote').innerHTML = quotes[randNum];
+    }
+    var quotes = ["Blank", "\"Dude, suckin' at something is the first step at being sorta good at something.\"<br>-  Jake <small><em>(Adventure Time)</em></small>", "\"Either I will find a way, or I will make one.\"<br> - Philip Sidney", "\"Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.\"<br>- Thomas A. Edison", "\"You are never too old to set another goal or to dream a new dream.\"<br>- C.S Lewis", "\"If you can dream it, you can do it.\"<br>- Walt Disney", "\"Never give up, for that is just the place and time that the tide will turn.\"<br>- Harriet Beecher Stowe", "\"I know where I'm going and I know the truth, and I don't have to be what you want me to be. I'm free to be what I want.\"<br>- Muhammad Ali", "\"If you always put limit on everything you do, physical or anything else. It will spread into your work and into your life. There are no limits. There are only plateaus, and you must not stay there, you must go beyond them.\"<br>- Bruce Lee"];
+
+</script> 
+
+<style>
+    html,
+    body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background-color: pink;
+        z-index: -2;
+    }
+
+    p {
+        max-width: 30em;
+        color: #ffffff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        margin: 40px auto;
+        text-transform: lowercase;
+        line-height: 145%;
+        font-size: 2em;
+        font-variant: small-caps;
+    }
+
+    #nav {
+        text-align: center;
+    }
+
+    #gen {
+        outline: none;
+        padding-top: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        opacity: 0.6;
+        background-color: black;
+        color: white;
+        border: thin solid white;
+        height: 50px;
+        width: 200px;
+        border-radius: 2px;
+        transition: 0.5s;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+</style>
