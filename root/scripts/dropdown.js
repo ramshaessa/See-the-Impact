@@ -2,7 +2,6 @@
    var questionOne = document.getElementById('foods')
 
 
-
    var questionTwo = document.getElementById('meals')
 
  
@@ -105,7 +104,7 @@
 
 }
  
-//alert(oneAnswerMessage + t)
+alert(firstAnswerMessage + "\n" + secondAnswerMessage + "\n" + thirdAnswerMessage + "\n" + fourthAnswerMessage + "\n" + fiveAnswerMessage)
 
 
 

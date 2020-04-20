@@ -1,0 +1,119 @@
+
+
+.wrapper {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-auto-rows: 100px;
+    grid-auto-rows: 100px;
+    color: #444;
+
+}
+
+.box {
+    background-color: pink;
+    color: purple;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+
+}
+
+.boxA {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+.boxB {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.boxC {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.boxD {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.boxE {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+
+.boxF {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.boxG {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.boxH {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.boxI {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+
+
+
+.pizza {
+    background-image:url("../images/pizza.jpg");
+
+}
+
+.hamBurgers {
+    background-image: url("../images/hamBurgers.jpg");
+}
+
+.pasta {
+    background-image: url("../images/pasta.jpg");
+}
+
+.chickenSalad {
+    background-image: url("../images/chickenSalad.jpg");
+}
+
+.fishSalad {
+    background-image: url("../images/fishSalad.jpg");
+}
+
+.pancake {
+    background-image: url("../images/pancake.jpg");
+}
+
+.friedChicken {
+    background-image: url("../images/friedChicken.jpg");
+}
