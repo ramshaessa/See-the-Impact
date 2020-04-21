@@ -90,12 +90,12 @@
 
 
 .pizza {
-    background-image:url("../images/pizza.jpg");
+    background-image:url("../images/pizzaone.jpg");
 
 }
 
 .hamBurgers {
-    background-image: url("../images/hamBurgers.jpg");
+    background-image: url("../images/hamburgersone.jpg");
 }
 
 .pasta {
@@ -103,11 +103,11 @@
 }
 
 .chickenSalad {
-    background-image: url("../images/chickenSalad.jpg");
+    background-image: url("../images/chicken salad.jpg");
 }
 
 .fishSalad {
-    background-image: url("../images/fishSalad.jpg");
+    background-image: url("../images/Fish Salad.jpg");
 }
 
 .pancake {
@@ -115,5 +115,39 @@
 }
 
 .friedChicken {
-    background-image: url("../images/friedChicken.jpg");
+    background-image: url("../images/fried chicken.jpg");
 }
+
+.beefSteak {
+    background-image: url("../images/beef streak.jpg");
+}
+
+.frenchFries {
+    background: url("../images/french fries.jpg");
+}
+
+.noodles {
+    background: url("../images/Noodles.jpg");
+}
+
+.hotDogs {
+    background: url("../images/Hot Dogs.jpg");
+}
+
+.sandwich {
+    background: url("../images/sandwich.jpg");
+}
+
+.mashPotatoes {
+    background: url("../images/Mash Mash potatoes.jpg");
+}
+
+.garlicBread {
+    background: url("../images/garlic bread.jpg");
+}
+
+.applePie {
+    background: url("../images/Apple Pie.jpg");
+}
+
+

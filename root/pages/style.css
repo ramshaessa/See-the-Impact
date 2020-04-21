@@ -33,7 +33,7 @@ header{
 }
 
 .nav-area li a {
-    color: #fff;
+    color: black;
     text-decoration: none;
     padding: 5px 20px;
     font-family: poppins;
@@ -52,7 +52,7 @@ header{
 }
 
 .nav-area li a:hover{
-    background: blue;
+    background: pink;
     color: #333;
 }
 
@@ -74,19 +74,19 @@ header{
 }
 
 .welcome-text a {
-    border: 1px solid #fff;
+    border: 1px solid pink;
     padding: 10px 25px;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
     margin-top: 20px;
     display: inline-block;
-    color: #fff;
+    color: black;
 
 }
 
 .welcome-text a:hover{
-    background: #fff;
+    background: pink;
     color: #333;
 
 }
