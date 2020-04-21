@@ -137,77 +137,77 @@ var foods =  {
 
     function myhamBurger() {
         hamBurgerMessage = "The total calories, carbohydrates, and fat are "
-        alert(hamBurgerMessage + " " + foods.hamBurgers.calories + ", " + foods.hamBurgers.carbohydrates + ", " + "and" + foods.hamBurgers.fat)
+        alert(hamBurgerMessage + " " + foods.hamBurgers.calories + ", " + foods.hamBurgers.carbohydrates + ", " + "and " + foods.hamBurgers.fat)
     }
 
     function myPasta() {
         pastaMessage = "The total calories, carbohydrates, and fat are "
-        alert(pastaMessage + " " + foods.pasta.calories + ", " + foods.pasta.carbohydrates + ", " + "and" + foods.pasta.fat)
+        alert(pastaMessage + " " + foods.pasta.calories + ", " + foods.pasta.carbohydrates + ", " + "and " + foods.pasta.fat)
     }
 
     function mypanCake() {
         panCakeMessage = "The total calories, carbohydrates, and fat are "
-        alert(panCakeMessage + " " + foods.pancake.calories + ", " + foods.pancake.carbohydrates + ", " + "and" + foods.pancake.fat)
+        alert(panCakeMessage + " " + foods.pancake.calories + ", " + foods.pancake.carbohydrates + ", " + "and " + foods.pancake.fat)
     }
 
     function mychickenSalad() {
         chickenSaladMessage = "The total calories, carbohydrates, and fat are "
-        alert(chickenSaladMessage + " " + foods.chickenSalad.calories + ", " + foods.chickenSalad.carbohydrates + ", " + "and" + foods.chickenSalad.fat)
+        alert(chickenSaladMessage + " " + foods.chickenSalad.calories + ", " + foods.chickenSalad.carbohydrates + ", " + "and " + foods.chickenSalad.fat)
     }
 
     function myfishSalad() {
         fishSaladMessage = "The total calories, carbohydrates, and fat are "
-        alert(fishSaladMessage + " " + foods.fishSalad.calories + ", " + foods.fishSalad.carbohydrates + ", " + "and" + foods.fishSalad.fat)
+        alert(fishSaladMessage + " " + foods.fishSalad.calories + ", " + foods.fishSalad.carbohydrates + ", " + "and " + foods.fishSalad.fat)
 
     }
 
     function mypanCake() {
         panCakeMessage = "The total calories, carbohydrates, and fat are "
-        alert(panCakeMessage + " " + foods.pancake.calories + ", " + foods.pancake.carbohydrates + ", " + "and" + foods.pancake.fat)
+        alert(panCakeMessage + " " + foods.pancake.calories + ", " + foods.pancake.carbohydrates + ", " + "and " + foods.pancake.fat)
     }
 
     function myfriedChicken() {
         friedChickenMessage = "The total calories, carbohydrates, and fat are "
-        alert(friedChickenMessage + " " + foods.friedChicken.calories + ", " + foods.friedChicken.carbohydrates + ", " + foods.friedChicken.fat)
+        alert(friedChickenMessage + " " + foods.friedChicken.calories + ", " + foods.friedChicken.carbohydrates + ", and " + foods.friedChicken.fat)
     }
 
     function mybeefSteak() {
         beefSteakMessage = "The total calories, carbohydrates, and fat are "
-        alert(beefSteakMessage + " " + foods.beefSteak.calories + ", " + foods.beefSteak.carbohydrates + ", " + foods.beefSteak.fat)
+        alert(beefSteakMessage + " " + foods.beefSteak.calories + ", " + foods.beefSteak.carbohydrates + ", and " + foods.beefSteak.fat)
     }
 
     function myfrenchFries() {
         frenchFriesMessage = "The total calories, carbohydrates, and fat are "
-        alert(frenchFriesMessage + " " + foods.frenchFries.calories + ", " + foods.frenchFries.carbohydrates + ", " + foods.frenchFries.fat)
+        alert(frenchFriesMessage + " " + foods.frenchFries.calories + ", " + foods.frenchFries.carbohydrates + ", and " + foods.frenchFries.fat)
     }
 
     function myNoodles() {
         noodlesMessage = "The total calories, carbohydrates, and fat are "
-        alert(noodlesMessage + " " + foods.noodles.calories + ", " + foods.noodles.carbohydrates + ", " + foods.noodles.fat)
+        alert(noodlesMessage + " " + foods.noodles.calories + ", " + foods.noodles.carbohydrates + ", and " + foods.noodles.fat)
     }
 
     function myhotDogs() {
         hotDogsMessage = "The total calories, carbohydrates, and fat are "
-        alert(hotDogsMessage + " " + foods.hotDogs.calories + ", " + foods.hotDogs.carbohydrates + ", " + foods.hotDogs.fat)
+        alert(hotDogsMessage + " " + foods.hotDogs.calories + ", " + foods.hotDogs.carbohydrates + ", and " + foods.hotDogs.fat)
     }
 
     function mysandwich() {
         sandwichMessage = "The total calories, carbohydrates, and fat are "
-        alert(sandwichMessage + " " + foods.sandwich.calories + ", " + foods.sandwich.carbohydrates + ", " + foods.sandwich.fat)
+        alert(sandwichMessage + " " + foods.sandwich.calories + ", " + foods.sandwich.carbohydrates + ", and " + foods.sandwich.fat)
     }
 
     function mymashPotatoes() {
         mashPotatoesMessage = "The total calories, carbohydrates, and fat are "
-        alert(mashPotatoesMessage + " " + foods.mashPotatoes.calories + ", " + foods.mashPotatoes.carbohydrates + ", " + foods.mashPotatoes.fat)
+        alert(mashPotatoesMessage + " " + foods.mashPotatoes.calories + ", " + foods.mashPotatoes.carbohydrates + ", and " + foods.mashPotatoes.fat)
     }
 
     function mygarlicBread() {
         garlicBreadMessage = "The total calories, carbohydrates, and fat are "
-        alert(garlicBreadMessage + " " + foods.garlicBread.calories + ", " + foods.garlicBread.carbohydrates + ", " + foods.garlicBread.fat)
+        alert(garlicBreadMessage + " " + foods.garlicBread.calories + ", " + foods.garlicBread.carbohydrates + ", and " + foods.garlicBread.fat)
     }
 
     function myapplePie() {
         applePieMessage = "The total calories, carbohydrates, and fat are "
-        alert(applePieMessage + " " + foods.applePie.calories + ", " + foods.applePie.carbohydrates + ", " + foods.applePie.fat)
+        alert(applePieMessage + " " + foods.applePie.calories + ", " + foods.applePie.carbohydrates + ", and " + foods.applePie.fat)
     }
     
