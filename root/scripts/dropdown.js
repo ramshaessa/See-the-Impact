@@ -8,15 +8,19 @@
 
    var questionThree = document.getElementById('exercise')
 
+   var questionFour = document.getElementById('breakfast')
  
-    var questionFour = document.getElementById('Time') 
+    var questionFive = document.getElementById('Time') 
 
-    var questionFive = document.getElementById('Mood') 
+    var questionSix = document.getElementById('Mood') 
+
+    
 
 
    var buttonSubmit = document.getElementById("Submission")
    
    buttonSubmit.onclick = function() {
+       console.log("Submit")
        //What you want this button to do. We want to select
        //the value that user selected and display alerts for each individual value //
 
@@ -37,11 +41,14 @@
 
        let fiveAnswer = questionFive.options[questionFive.selectedIndex].value;
 
+       let sixAnswer = questionSix.options[questionSix.selectedIndex].value;
+
        console.log(firstAnswer)
        console.log(secondAnswer)
        console.log(thirdAnswer)
        console.log(fourAnswer)
        console.log(fiveAnswer)
+       console.log(sixAnswer)
 
        let firstAnswerMessage = null 
        if(firstAnswer =="ChickenPizza") {
@@ -64,47 +71,62 @@
         } else {
             secondAnswerMessage = "That is awesome but don't eat way too much and be wise about your choices"
     }
-       let thirdAnswerMessage = null
+       
+    
+    let thirdAnswerMessage = null
 
-       if (thirdAnswer == "A bowl of cereal with bag of Cheetos") {
-            thirdAnswerMessage = "Is that even a allowed? Wow!"
-        } else if (thirdAnswer ="Two eggs with bread and butter") {
-            thirdAnswerMessage = "Good choice but it can be healthier."
-        } else if (thirdAnswer ="McDonald Fish O Fillet") {
-             thirdAnswerMessage = "Not great choice for breakfast"
+    if (thirdAnswer =="4") {
+        thirdAnswerMessage = "That is good but you can exercise more"
+    } else if (thirdAnswer == "7") {
+        thirdAnswerMessage = "Cool, this is just right. Keep it up"
+    } else if (thirdAnswer == "10") {
+        thirdAnswerMessage = "Not bad but do not over exercise as it can be bad for your health"
+    } else {
+        thirdAnswerMessage = "What!! You never exercise. This is so bad"
+    }
+    
+    
+    let fourthAnswerMessage = null
+
+       if (fourAnswer == "A bowl of cereal with bag of Cheetos") {
+            fourthAnswerMessage = "Is that even a allowed? Wow!"
+        } else if (fourAnswer ="Two eggs with bread and butter") {
+            fourthAnswerMessage = "Good choice but it can be healthier."
+        } else if (fourAnswer ="McDonald Fish O Fillet") {
+             fourAnswerMessage = "Not great choice for breakfast"
         } else {
-            thirdAnswerMessage = "Great choice. Continue to eat well"
+            fourthAnswerMessage = "Great choice. Continue to eat well"
            }
 
-
-       let fourthAnswerMessage = null
-
-
-    if (fourAnswer == "7 PM") {
-        fourthAnswerMessage = "Eat eater is early riser"
-     } else if (fourAnswer == "8 PM") {
-        fourthAnswerMessage = "Great, just eat right!"
-    } else if (fourAnswer == "9 PM") {
-        fourthAnswerMessage = "Not bad but try to eat your dinner earlier"
-    } else {
-        fourthAnswerMessage = "This is insane. Please do not do this to yourself!"
-      }
 
        let fiveAnswerMessage = null
 
 
-   if (fiveAnswer == "Always") {
-        fiveAnswerMessage = "That is great. Please continue to laugh so you can spread this positivity around you to others"
-    } else if (fiveAnswer == "Very often") {
-        fiveAnswerMessage = "Awesome, Continue to stay happy because it is secret ingriedient to good health"
-    } else if (fiveAnswer == "Somewhat often ") {
+    if (fiveAnswer == "7 PM") {
+        fiveAnswerMessage = "Eat eater is early riser"
+     } else if (fiveAnswer == "8 PM") {
+        fiveAnswerMessage = "Great, just eat right!"
+    } else if (fiveAnswer == "9 PM") {
+        fiveAnswerMessage = "Not bad but try to eat your dinner earlier"
+    } else {
+        fiveAnswerMessage = "This is insane. Please do not do this to yourself!"
+      }
+
+       let sixAnswerMessage = null
+
+
+   if (sixAnswer == "Always") {
+        sixAnswerMessage = "That is great. Please continue to laugh so you can spread this positivity around you to others"
+    } else if (sixAnswer == "Very often") {
+        sixAnswerMessage = "Awesome, Continue to stay happy because it is secret ingriedient to good health"
+    } else if (sixAnswer == "Somewhat often ") {
     fiveAnswerMessage = "Not bad but try to laugh more."
     } else {
-        fiveAnswerMessage = "What, so you do not laugh? Why dude? It is good to laugh"
+        sixAnswerMessage = "What, so you do not laugh? Why dude? It is good to laugh"
 
 }
  
-alert(firstAnswerMessage + "\n" + secondAnswerMessage + "\n" + thirdAnswerMessage + "\n" + fourthAnswerMessage + "\n" + fiveAnswerMessage)
+alert(firstAnswerMessage + "\n" + secondAnswerMessage + "\n" + thirdAnswerMessage + "\n" + fourthAnswerMessage + "\n" + fiveAnswerMessage + "\n" + sixAnswerMessage)
 
 
 

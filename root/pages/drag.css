@@ -154,3 +154,7 @@ body {
     background: url("../images/health count.jpg");
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
